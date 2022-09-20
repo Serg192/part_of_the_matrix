@@ -1,0 +1,14 @@
+#include "../inc/part_of_the_matrix.h"
+
+char *mx_strcpy(char *dst, const char *src){
+    int index = 0;
+
+    while(src[index] != '\0'){
+        dst[index] = src[index];
+        index += 1;
+    }
+
+    dst[index] = '\0';
+    return dst;
+}
+
